@@ -13,23 +13,26 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Portfolio Ritten Roothaert
-email: your-email@example.com
+title: Portfolio of Ritten Roothaert
+email: h.m.roothaert@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  The portfolio of Henric Marijn Roothaert. Interesting project related to AI, XAI, hybrid AI and 
-  ML will be posted accordingly. Most projects are written in python or java. Please get in touch 
-  with me at h.m.roothaert@gmail.com if you intend on using one of my projects for personal use
+  The portfolio of Ritten (H.M.) Roothaert. This webpage showcases my projects, which are mostly related to AI, XAI, hybrid AI and 
+  ML. The preferred programming language used is Python, although some projects are written java and scala. Please get in touch 
+  with me at h.m.roothaert@gmail.com if you intend on using one of my projects for personal use.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+# twitter_username: jekyllrb
+github_username:  Ritten11
+linkedin_username: h-m-roothaert
 
 show_downloads: True
 
 # Build settings
 markdown: kramdown
 theme: minima
-# remote_theme: pages-themes/architect@v0.2.0
+
+
+# remote_theme: pages-themes/slate@v0.2.0
 plugins:
   - jekyll-feed
 #  - jekyll-remote-theme # add this line to the plugins list if you already have one
@@ -45,3 +48,7 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+
+minima:
+  skin: solarized
