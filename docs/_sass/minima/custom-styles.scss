@@ -1,2 +1,25 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+.post-cols {
+    border: 3px solid #fff;
+    min-height: 50px;
+    overflow: hidden;
+}
+
+.text-col {
+    width: 60%;
+    height: auto;
+    float: left;
+    padding: 1%;
+    /*border: 2px solid red;*/
+} 
+
+.picture-col {
+    width: 35%;
+    height: auto;
+    float: left;
+    padding: 1%;
+    /*border: 2px solid red;*/
+} 
+

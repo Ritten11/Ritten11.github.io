@@ -1,8 +1,13 @@
 ---
 layout: page
-title: About
+title: About me
 permalink: /about/
 ---
+
+{% include image.html max-width="200px" 
+file="https://media-exp1.licdn.com/dms/image/C4E03AQF7eImGj3XS-w/profile-displayphoto-shrink_200_200/0/1650971388313?e=1669852800&v=beta&t=jIBtlgT5YW7rwquzurkKjvJl_Ew2m8Tm0uhq-UKWcpo" 
+alt="Profile picture"
+align="center"%}
 
 Hi, 
 
@@ -16,8 +21,8 @@ cognitive psychology, neuro-ergonomics, microbiology and atmospheric modeling.
 
 
 ### Programming skills
-My preferred programming languages are Python and Java, but am also a
-cquainted with R, Lisp and C. 
+My preferred programming languages are Python and Java, but am also 
+acquainted with R, Lisp and C. 
 
 ### Languages
 I can speak both English and Dutch fluently, and understand German and Norwegian.

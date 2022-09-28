@@ -17,13 +17,17 @@ title: Portfolio of Ritten Roothaert
 email: h.m.roothaert@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   The portfolio of Ritten (H.M.) Roothaert. This webpage showcases my projects, which are mostly related to AI, XAI, hybrid AI and 
-  ML. The preferred programming language used is Python, although some projects are written java and scala. Please get in touch 
-  with me at h.m.roothaert@gmail.com if you intend on using one of my projects for personal use.
+  ML. The preferred programming language used is Python, although some projects are written java and scala. For questions, please get in touch 
+  with me though email or my socials.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username:  Ritten11
 linkedin_username: h-m-roothaert
+
+# across-site variable definitiona
+excerpt_separator: <!-- excerpt-end -->
+
 
 show_downloads: True
 
