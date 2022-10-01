@@ -229,8 +229,36 @@ table td { border: 1px solid var(--solarized-mono1); }
 
 /** Grid helpers */
 @media screen and (min-width: 800px) { .one-half { width: calc(50% - (30px / 2)); } }
+/* ----------------------------------------------------------------
+PROJECTS PAGE 
+----------------------------------------------------------------- */
 .post-cols { border: 3px solid #fff; min-height: 50px; overflow: hidden; }
 
 .text-col { width: 60%; height: auto; float: left; padding: 1%; /*border: 2px solid red;*/ }
 
-.picture-col { width: 35%; height: auto; float: left; padding: 1%; /*border: 2px solid red;*/ }
+.picture-col { width: 35%; height: auto; float: right; padding: 1%; /*border: 2px solid red;*/ }
+
+/* ----------------------------------------------------------------
+ABOUT PAGE 
+----------------------------------------------------------------- */
+.about-frame { border: 3px solid #fff; min-height: 50px; margin: auto; overflow: hidden; }
+
+table.about-table { width: 100%; }
+
+.profile-list li { margin: 0.3rem 0; }
+
+.profile-list strong { display: inline-block; width: 30%; margin-right: 1rem; }
+
+.about-text { width: 52%; height: auto; float: left; padding: 1%; /*border: 2px solid red;*/ }
+
+.about-picture { width: 44%; height: auto; float: right; padding: 1%; margin: auto; /*border: 2px solid red;*/ }
+
+.about-third { margin: 2.2em; overflow: hidden; display: flex; }
+
+.about-third-text { border: 3px dotted #000; width: 28%; padding: 2%; border-radius: 5%; }
+
+.horizontalgap { float: left; overflow: hidden; height: 1px; width: 1%; }
+
+/*attr-frame {
+	
+}*/

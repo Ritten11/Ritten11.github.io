@@ -1,6 +1,10 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
 
+/* ----------------------------------------------------------------
+PROJECTS PAGE 
+----------------------------------------------------------------- */
+
 .post-cols {
     border: 3px solid #fff;
     min-height: 50px;
@@ -18,8 +22,75 @@
 .picture-col {
     width: 35%;
     height: auto;
+    float: right;
+    padding: 1%;
+    /*border: 2px solid red;*/
+} 
+
+/* ----------------------------------------------------------------
+ABOUT PAGE 
+----------------------------------------------------------------- */
+.about-frame {
+	border: 3px solid #fff;
+	min-height: 50px;
+	margin: auto;
+	overflow: hidden;
+}
+
+table.about-table {
+	width:100%;
+}
+
+
+.profile-list li {
+margin: 0.3rem 0;
+}
+
+.profile-list strong {
+display: inline-block;
+width: 30%;
+margin-right: 1rem;
+}
+
+.about-text {
+    width: 52%;
+    height: auto;
     float: left;
     padding: 1%;
     /*border: 2px solid red;*/
 } 
 
+.about-picture {
+    width: 44%;
+    height: auto;
+    float: right;
+    padding: 1%;
+    margin: auto;
+    /*border: 2px solid red;*/
+} 
+
+.about-third {
+	margin: 2.2em;
+	overflow: hidden;
+	display: flex;
+  
+}
+
+.about-third-text {
+    border: 3px dotted #000;
+	width: 28%;
+	padding: 2%;
+	border-radius: 5%;
+}
+
+
+.horizontalgap {
+  float: left;
+  overflow: hidden;
+  height: 1px;
+  width: 1%;
+}
+
+/*attr-frame {
+	
+}*/
