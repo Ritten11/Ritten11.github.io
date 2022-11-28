@@ -238,6 +238,7 @@ PROJECTS PAGE
 
 .picture-col { width: 35%; height: auto; float: right; padding: 1%; /*border: 2px solid red;*/ }
 
+@media screen and (max-width: 400px) { .text-col, .picture-col { width: 100%; /* The width is 100%, when the viewport is 400px or smaller */ float: center; } }
 /* ----------------------------------------------------------------
 ABOUT PAGE 
 ----------------------------------------------------------------- */
@@ -255,10 +256,11 @@ table.about-table { width: 100%; }
 
 .about-third { margin: 2.2em; overflow: hidden; display: flex; }
 
-.about-third-text { border: 3px dotted #000; width: 28%; padding: 2%; border-radius: 5%; }
+.about-third-text { border: 3px dotted #000; width: 28%; padding: 2%; border-radius: 5%; margin-left: 5px; margin-right: 5px; }
 
-.horizontalgap { float: left; overflow: hidden; height: 1px; width: 1%; }
-
+@media screen and (max-width: 400px) { .about-text, .about-picture { width: 100%; /* The width is 100%, when the viewport is 400px or smaller */ float: center; }
+  .about-third-text { width: 75%; /* The width is 100%, when the viewport is 400px or smaller */ float: center; margin-bottom: 10px; }
+  .about-third { overflow: visible; float: center; flex-wrap: wrap; } }
 /*attr-frame {
 	
 }*/

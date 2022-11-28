@@ -11,13 +11,14 @@ title: Projects
 		{% assign excerptParts = post.excerpt | split: "<!-- excerpt-start -->" %}
       
 		<div class="post-cols">
+			<div class="picture-col">
+				{{excerptParts[0]}}
+			</div>
+
 			<div class="text-col">
 				{{ excerptParts[1] | strip_newlines | truncatewords: 100 }}
 			</div>
 			
-			<div class="picture-col">
-				{{excerptParts[0]}}
-			</div>
 		</div>
 		
 	</li>
