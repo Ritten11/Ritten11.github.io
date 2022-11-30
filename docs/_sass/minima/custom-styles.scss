@@ -9,25 +9,32 @@ PROJECTS PAGE
     border: 3px solid #fff;
     min-height: 50px;
     overflow: hidden;
+    padding: 2%
 }
 
 .text-col {
     width: 60%;
     height: auto;
     float: left;
-    padding: 1%;
+    // padding: 1%;
     /*border: 2px solid red;*/
 } 
 
 .picture-col {
     width: 35%;
-    height: auto;
+    height: 100%;
     float: right;
-    padding: 1%;
-    /*border: 2px solid red;*/
-} 
+    // padding: 1%;
+    // border: 2px solid red;
+}
 
-@media screen and (max-width: 400px) {
+.source-link {
+  // color: #fff;
+  font-size: $tiny-font-size;
+}
+
+
+@media screen and (max-width: 650px) {
     .text-col, .picture-col{
       width: 100%; /* The width is 100%, when the viewport is 400px or smaller */
       float: center;
@@ -42,6 +49,7 @@ ABOUT PAGE
 	min-height: 50px;
 	margin: auto;
 	overflow: hidden;
+  padding: 2%;
 }
 
 table.about-table {
@@ -63,17 +71,17 @@ margin-right: 1rem;
     width: 52%;
     height: auto;
     float: left;
-    padding: 1%;
-    /*border: 2px solid red;*/
+    // padding: 1%;
+    // border: 2px solid red;
 } 
 
 .about-picture {
     width: 44%;
     height: auto;
     float: right;
-    padding: 1%;
+    // padding: 1%;
     margin: auto;
-    /*border: 2px solid red;*/
+    // border: 2px solid red;
 } 
 
 .about-third {
@@ -85,31 +93,56 @@ margin-right: 1rem;
 
 .about-third-text {
     border: 3px dotted #000;
-	width: 28%;
-	padding: 2%;
-	border-radius: 5%;
+	  width: 28%;
+	  padding: 2%;
+	  border-radius: 5%;
     margin-left: 5px;
     margin-right: 5px;
 }
 
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 650px) {
     .about-text, .about-picture{
+      float: none;
       width: 100%; /* The width is 100%, when the viewport is 400px or smaller */
-      float: center;
+    }
+
+    .about-picture{
+      
+      max-width: 400px;
     }
 
     .about-third-text{
+      width: 40%; /* The width is 100%, when the viewport is 400px or smaller */
+      float: none;
+      margin-bottom: 10px;
+    }
+
+    .about-third {
+      overflow: visible;
+      float: none;
+      flex-wrap: wrap ;
+      
+      border: 2px red;
+  }
+
+
+  }
+
+  @media screen and (max-width: 450px) {
+
+    .about-third-text{
       width: 75%; /* The width is 100%, when the viewport is 400px or smaller */
-      float: center;
+      float: none;
       margin-bottom: 10px;
     }
 
     .about-third {
         overflow: visible;
-        float: center;
+        float: none;
         flex-wrap: wrap ;
+        border: 2px red;
     }
 
   }
